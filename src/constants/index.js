@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Belohnung",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Unser professionelles Team bietet einige verlockende Kombinationen aus Werbeaktionen und Preisen",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% Gesichert",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Wir ergreifen proaktive Maßnahmen, um sicherzustellen, dass Ihre Informationen und Transaktionen sicher sind.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Schnelle Dienstleistungen",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Ein schneller und umfassender Service kann Ihnen viel Zeit und unnötigen Ärger ersparen.",
   },
 ];
 
@@ -73,18 +73,18 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Kunden",
+    value: "1+",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Zuverlässige Unternehmen",
+    value: "1+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Transaktionen",
+    value: "€1M+",
   },
 ];
 

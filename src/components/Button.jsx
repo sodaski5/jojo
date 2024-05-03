@@ -1,9 +1,10 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+import React from "react";
 
-const Button = () => {
-  return (
-    <div>Button</div>
-  )
-}
+const Button = ({ styles }) => (
+  <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+    Loslegen
+  </button>
+);
 
-export default Button
+export default Button;
