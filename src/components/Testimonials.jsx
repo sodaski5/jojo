@@ -8,7 +8,7 @@ const Testimonials = () => {
       <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient" /> 
 
       <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
-        <h1 className={styles.heading2}>Was sagen die <br className="sm:block hidden" /> Leute über uns?</h1>
+        <h1 className={styles.heading2}>Unser Team aus Profis <br className="sm:block hidden" /> bei Hegeba bieten wir:</h1>
         <div className="w-full md:mt-0 mt-6">
           <p className={`${styles.paragraph} text-left max-w-[450px]`}>
           Alles, was Sie brauchen, um eine Sitzung bei unserem Spezialisten zu buchen und ein erfolgreiches Erlebnis zu haben.

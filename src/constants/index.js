@@ -7,15 +7,15 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Dienstleistungen",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Produkte",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Team",
   },
 ];
 
@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Belohnung",
+    title: "Bauarbeiten",
     content:
-      "Unser professionelles Team bietet einige verlockende Kombinationen aus Werbeaktionen und Preisen",
+      "Unser erfahrenes Team übernimmt Bauprojekte von der Planung bis zur Fertigstellung. Wir legen großen Wert auf Qualität, Effizienz und Kundenzufriedenheit.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Gesichert",
+    title: "IT-Lösungen",
     content:
-      "Wir ergreifen proaktive Maßnahmen, um sicherzustellen, dass Ihre Informationen und Transaktionen sicher sind.",
+      "Wir bieten Cloud-Entwicklung, Erstellungen von Webanwendung (z.B. Webseiten), Netzwerk Erstellung und Computerraumausrüstung (Netzwerktopologie design).",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Schnelle Dienstleistungen",
+    title: "Elektroinstallation",
     content:
-      "Ein schneller und umfassender Service kann Ihnen viel Zeit und unnötigen Ärger ersparen.",
+      "Unsere Elektroinstallateure sind auf die Installation, Reparatur und Wartung elektrischer Systeme spezialisiert. Wir sorgen für eine zuverlässige und sichere elektrische Infrastruktur in Wohn- und Gewerbeimmobilien.",
   },
 ];
 
@@ -47,25 +47,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "Bei Hegeba sind wir hier, um Ihnen das Leben zu erleichtern. Unser Team ist darauf spezialisiert, erstklassigen Service anzubieten, der auf Ihre Bedürfnisse zugeschnitten ist. Ob es sich um IT-Dienstleistungen, Bauarbeiten, Elektroinstallationen, Wartung oder Unterstützung handelt, verlassen Sie sich darauf, dass wir Ihre Erwartungen übertreffen. ",
+    name: "Hegeba.de",
+    title: "Gründer und CEO",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
+      "Unser Team steht bereit, um Ihre elektrischen Anforderungen mit Fachkenntnis und Sorgfalt zu erfüllen. Von kleinen Reparaturen bis hin zu komplexen Installationen sind wir für Sie da, um sicherzustellen, dass Ihre elektrischen Systeme einwandfrei funktionieren. Vielen Dank für Ihr Vertrauen in Hegeba.",
+    name: "Dawoud Hegeba",
+    title: "Leiter Elektroinstallationen",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
+      "Unser engagiertes Team steht Ihnen zur Verfügung, um Ihre IT-Herausforderungen zu lösen und innovative Lösungen anzubieten, die auf Ihre Bedürfnisse zugeschnitten sind. Wir sind bestrebt, Ihnen einen erstklassigen Service zu bieten und Ihre Zufriedenheit steht bei uns an erster Stelle. Vielen Dank, dass Sie Hegeba gewählt haben.",
+    name: "--- -----",
+    title: "Leiter IT-Lösungen",
     img: people03,
   },
 ];
@@ -84,28 +84,28 @@ export const stats = [
   {
     id: "stats-3",
     title: "Transaktionen",
-    value: "€1M+",
+    value: "€1+",
   },
 ];
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Nützliche Links",
     links: [
       {
-        name: "Content",
+        name: "Inhalt",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Funktionalität",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Erstellen",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Erkunden",
         link: "https://www.hoobank.com/explore/",
       },
       {
@@ -115,18 +115,18 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Community",
+    title: "Gemeinschaft",
     links: [
       {
-        name: "Help Center",
+        name: "Hilfezentrum",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Partner",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Vorschläge",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
@@ -143,11 +143,11 @@ export const footerLinks = [
     title: "Partner",
     links: [
       {
-        name: "Our Partner",
+        name: "Unser Partner",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Ein Partner werden",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
