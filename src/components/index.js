@@ -1,6 +1,5 @@
 import Navbar from "./Navbar";
 import Bauarbeit from "./Bauarbeit";
-import Billing from "./Billing";
 import CardDeal from "./CardDeal";
 import Business from "./Business";
 import Clients from "./Clients";
@@ -14,7 +13,6 @@ import Notdienst from "./Notdienst";
 
 export {
   Navbar,
-  Billing,
   Bauarbeit,
   CardDeal,
   Business,

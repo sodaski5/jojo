@@ -1,8 +1,6 @@
 import { useForm, Controller } from 'react-hook-form';
 import styles from '../style';
 import FormElement from './FormElement';
-import Amplify from 'aws-amplify';
-
 
 const CTA = () => {
   const { control, handleSubmit, formState: { errors } } = useForm({
