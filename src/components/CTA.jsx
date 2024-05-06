@@ -12,7 +12,11 @@ const CTA = () => {
 
   })
 
-  const onSubmit = data => console.log(data);
+  const onSubmit = ( ) => {
+    return(<div>
+      
+    </div>)
+  };
 
   return (
     <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>

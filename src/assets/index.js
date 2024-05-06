@@ -1,5 +1,4 @@
 import airbnb from "./airbnb.png";
-import bill from "./bill.png";
 import binance from "./binance.png";
 import bauarbeit from "./bauarbeit.png";
 import card from "./card.png";
@@ -8,9 +7,7 @@ import dropbox from "./dropbox.png";
 import electro from "./electro.png";
 import file0 from "./file0.png";
 import hegeba from "./hegeba.png";
-import logo from "./logo.svg";
 import quotes from "./quotes.svg";
-import robot from "./robot.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -31,7 +28,6 @@ import people03 from "./people03.png";
 
 export {
   airbnb,
-  bill,
   binance,
   bauarbeit,
   card,
@@ -40,9 +36,7 @@ export {
   electro,
   file0,
   hegeba,
-  logo,
   quotes,
-  robot,
   send,
   shield,
   star,
