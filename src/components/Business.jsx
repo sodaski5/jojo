@@ -26,7 +26,7 @@ const Business = () => {
   };
 
   return (
-    <section id="business-section" className={layout.section}>
+    <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>Sie erteilen den Auftrag, <br className="sm:block hidden" /> wir kümmern uns um die Umsetzung</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
