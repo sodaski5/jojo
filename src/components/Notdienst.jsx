@@ -3,6 +3,11 @@ import styles, {layout} from '../style';
 import Button from './Button';
 
 const Notdienst = () => {
+  const scrollToCTASection = () => {
+    const ctaSection = document.getElementById('cta-section'); // Get the CTA section
+    ctaSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to the CTA section smoothly
+  };
+
   return (
     <section id="product" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
@@ -15,7 +20,7 @@ const Notdienst = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             Hegeba - Ihr Partner für Reparaturen, Sanierungsarbeiten und Notdienst in Berlin. Unser erfahrenes Team steht Ihnen zur Seite, um Probleme schnell und effizient zu lösen, sei es bei Schäden, Renovierungen oder dringenden Reparaturanfragen. Vertrauen Sie auf unsere Expertise für schnelle und zuverlässige Lösungen.
         </p>
-        <Button styles="mt-10" />
+        <Button styles="mt-10" onClick={scrollToCTASection} />
       </div>
     </section>
   )

@@ -20,22 +20,27 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () => {
+  const scrollToCTASection = () => {
+    const ctaSection = document.getElementById('cta-section'); // Get the CTA section
+    ctaSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to the CTA section smoothly
+  };
+
   return (
-    <section id="features" className={layout.section}>
+    <section id="business-section" className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Sie erteilen den Auftrag, <br className="sm:block hidden"/> wir kümmern uns um die Umsetzung</h2>
+        <h2 className={styles.heading2}>Sie erteilen den Auftrag, <br className="sm:block hidden" /> wir kümmern uns um die Umsetzung</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           Der richtige Dienstleister sollte Ihre Servicequalität und Ihr Kundenerlebnis verbessern. Wir kümmern uns um alles.
         </p>
-        <Button styles={`mt-10`}/>
+        <Button styles={`mt-10`} onClick={scrollToCTASection} /> {/* Pass scrollToCTASection function as onClick prop */}
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
-          <FeatureCard key={feature.id} {...feature} index={index} /> 
+          <FeatureCard key={feature.id} {...feature} index={index} />
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Business

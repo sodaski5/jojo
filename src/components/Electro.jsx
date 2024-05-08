@@ -4,6 +4,11 @@ import Button from './Button';
 
 
 const Electro = () => {
+  const scrollToCTASection = () => {
+    const ctaSection = document.getElementById('cta-section'); // Get the CTA section
+    ctaSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to the CTA section smoothly
+  };
+
   return (
     <section id="product" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
@@ -16,7 +21,7 @@ const Electro = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             Hegeba, Ihre Elektroinstallations-Experten in Berlin, bieten präzise Installationen, Reparaturen und Wartungen elektrischer Systeme für Wohn- und Gewerbeimmobilien. Wir garantieren höchste Sicherheit und Zuverlässigkeit, indem wir moderne Technologien und Fachwissen nutzen, um maßgeschneiderte Lösungen zu liefern. Unsere engagierten Elektrofachkräfte arbeiten effizient und präzise, um alle Anforderungen zu erfüllen und höchste Qualität zu gewährleisten. Vertrauen Sie Hegeba für erstklassigen Service und eine sichere elektrische Infrastruktur.
         </p>
-        <Button styles="mt-10" />
+        <Button styles="mt-10" onClick={scrollToCTASection} />
       </div>
     </section>
   )

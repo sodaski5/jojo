@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
 export const navLinks = [
   {
@@ -50,7 +50,7 @@ export const feedback = [
       "Bei Hegeba sind wir hier, um Ihnen das Leben zu erleichtern. Unser Team ist darauf spezialisiert, erstklassigen Service anzubieten, der auf Ihre Bedürfnisse zugeschnitten ist. Ob es sich um IT-Dienstleistungen, Bauarbeiten, Elektroinstallationen, Wartung oder Unterstützung handelt, verlassen Sie sich darauf, dass wir Ihre Erwartungen übertreffen. ",
     name: "Hegeba.de",
     title: "Gründer und CEO",
-    img: people01,
+    img: star,
   },
   {
     id: "feedback-2",
@@ -58,7 +58,7 @@ export const feedback = [
       "Unser Team steht bereit, um Ihre elektrischen Anforderungen mit Fachkenntnis und Sorgfalt zu erfüllen. Von kleinen Reparaturen bis hin zu komplexen Installationen sind wir für Sie da, um sicherzustellen, dass Ihre elektrischen Systeme einwandfrei funktionieren. Vielen Dank für Ihr Vertrauen in Hegeba.",
     name: "Dawoud Hegeba",
     title: "Leiter Elektroinstallationen",
-    img: people02,
+    img: shield,
   },
   {
     id: "feedback-3",
@@ -66,7 +66,7 @@ export const feedback = [
       "Unser engagiertes Team steht Ihnen zur Verfügung, um Ihre IT-Herausforderungen zu lösen und innovative Lösungen anzubieten, die auf Ihre Bedürfnisse zugeschnitten sind. Wir sind bestrebt, Ihnen einen erstklassigen Service zu bieten und Ihre Zufriedenheit steht bei uns an erster Stelle. Vielen Dank, dass Sie Hegeba gewählt haben.",
     name: "--- -----",
     title: "Leiter IT-Lösungen",
-    img: people03,
+    img: star,
   },
 ];
 
