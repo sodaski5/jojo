@@ -3,7 +3,7 @@ import styles, {layout} from '../style';
 import Button from './Button'; 
 
 
-const Electro = () => {
+const CyberSchutz = () => {
   const scrollToCTASection = () => {
     const ctaSection = document.getElementById('cta-section'); // Get the CTA section
     ctaSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to the CTA section smoothly
@@ -17,9 +17,13 @@ const Electro = () => {
         <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
       </div>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Elektroinstallation </h2>
+        <h2 className={styles.heading2}>Cybersecurity & IT-Schutz</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Hegeba, Ihre Elektroinstallations-Experten in Berlin, bieten präzise Installationen, Reparaturen und Wartungen elektrischer Systeme für Wohn- und Gewerbeimmobilien. Wir garantieren höchste Sicherheit und Zuverlässigkeit, indem wir moderne Technologien und Fachwissen nutzen, um maßgeschneiderte Lösungen zu liefern. Unsere engagierten Elektrofachkräfte arbeiten effizient und präzise, um alle Anforderungen zu erfüllen und höchste Qualität zu gewährleisten. Vertrauen Sie Hegeba für erstklassigen Service und eine sichere elektrische Infrastruktur.
+            JoJo Security ist Ihr Partner für ganzheitliche IT-Sicherheit. Wir schützen Unternehmen vor Cyberangriffen, Datenverlust und Systemausfällen, indem wir Netzwerke, Endgeräte und Cloud-Dienste mit modernsten Technologien absichern.
+            <br />
+            Unser Leistungsspektrum reicht von Firewall, VPN und Backup-Lösungen bis hin zu 24/7-Monitoring, Incident Response und präventiven Maßnahmen wie Phishing-Simulationen oder Zugriffsmanagement. Dabei entwickeln wir maßgeschneiderte Sicherheitskonzepte, die perfekt auf Ihre Anforderungen abgestimmt sind.
+            <br />
+            Mit Erfahrung, Präzision und einem praxisnahen Ansatz sorgen wir dafür, dass Ihre digitale Infrastruktur zuverlässig, widerstandsfähig und sicher bleibt. Vertrauen Sie JoJo Security für nachhaltigen Schutz im Cyberraum.
         </p>
         <Button styles="mt-10" onClick={scrollToCTASection} />
       </div>
@@ -27,4 +31,4 @@ const Electro = () => {
   )
 }
 
-export default Electro
+export default CyberSchutz

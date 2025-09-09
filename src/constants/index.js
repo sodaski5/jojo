@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Bauarbeiten",
+    title: "Physische Sicherheitsdienste",
     content:
-      "Unser erfahrenes Team übernimmt Bauprojekte von der Planung bis zur Fertigstellung. Wir legen großen Wert auf Qualität, Effizienz und Kundenzufriedenheit.",
+      "Objektschutz & Revierdienste – Bewachung von Baustellen, Gebäuden, Industrieanlagen, inkl. Kontrollgänge, Schlüsselverwaltung & Zutrittskontrolle. Eventschutz & Empfangsdienste – Doormen, Einlasskontrollen, Besuchermanagement & VIP-Schutz.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "IT-Lösungen",
+    title: "Cybersecurity & IT-Schutz",
     content:
-      "Wir bieten Cloud-Entwicklung, Erstellungen von Webanwendung (z.B. Webseiten), Netzwerk Erstellung und Computerraumausrüstung (Netzwerktopologie design).",
+      "IT-Sicherheitsmanagement – Absicherung von Netzwerken, Geräten & Cloud-Lösungen. Monitoring & Incident Response – 24/7 Überwachung, schnelle Reaktion bei Vorfällen.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Elektroinstallation",
+    title: "Schulungen nach §34a GewO",
     content:
-      "Unsere Elektroinstallateure sind auf die Installation, Reparatur und Wartung elektrischer Systeme spezialisiert. Wir sorgen für eine zuverlässige und sichere elektrische Infrastruktur in Wohn- und Gewerbeimmobilien.",
+      "Online-Sachkunde-Kurse – Komplett digital mit Videos, Live-Unterricht und individueller Prüfungsvorbereitung. Flexibles Lernen von zu Hause – ideal für Berufstätige & Quereinsteiger.",
   },
 ];
 
@@ -47,8 +47,8 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Bei Hegeba sind wir hier, um Ihnen das Leben zu erleichtern. Unser Team ist darauf spezialisiert, erstklassigen Service anzubieten, der auf Ihre Bedürfnisse zugeschnitten ist. Ob es sich um IT-Dienstleistungen, Bauarbeiten, Elektroinstallationen, Wartung oder Unterstützung handelt, verlassen Sie sich darauf, dass wir Ihre Erwartungen übertreffen. ",
-    name: "Hegeba.de",
+      "Bei JoJo Security sind wir da, um Ihre Sicherheit zu stärken – verlässlich, umfassend und individuell. Unser Team aus erfahrenen Fachkräften bietet Ihnen maßgeschneiderte Lösungen in den Bereichen Objektschutz, Cybersicherheit und Sicherheitsschulungen. Ob physischer Schutz, IT-Security oder §34a-Weiterbildung – wir sorgen dafür, dass Sie in allen Belangen bestens geschützt sind.",
+    name: "Abdallah Soliman",
     title: "Gründer und CEO",
     img: star,
   },
@@ -56,15 +56,15 @@ export const feedback = [
     id: "feedback-2",
     content:
       "Unser Team steht bereit, um Ihre elektrischen Anforderungen mit Fachkenntnis und Sorgfalt zu erfüllen. Von kleinen Reparaturen bis hin zu komplexen Installationen sind wir für Sie da, um sicherzustellen, dass Ihre elektrischen Systeme einwandfrei funktionieren. Vielen Dank für Ihr Vertrauen in Hegeba.",
-    name: "Dawoud Hegeba",
-    title: "Leiter Elektroinstallationen",
+    name: "Muhammad Soliman",
+    title: "Manager",
     img: shield,
   },
   {
     id: "feedback-3",
     content:
       "Unser engagiertes Team steht Ihnen zur Verfügung, um Ihre IT-Herausforderungen zu lösen und innovative Lösungen anzubieten, die auf Ihre Bedürfnisse zugeschnitten sind. Wir sind bestrebt, Ihnen einen erstklassigen Service zu bieten und Ihre Zufriedenheit steht bei uns an erster Stelle. Vielen Dank, dass Sie Hegeba gewählt haben.",
-    name: "--- -----",
+    name: "Abubakar Sadiq Abdulhameed",
     title: "Leiter IT-Lösungen",
     img: star,
   },

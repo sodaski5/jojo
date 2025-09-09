@@ -26,7 +26,7 @@ const Hero = () => {
           Berlin und Ganz Deutschland. 
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Wir bieten Notfalldienste, IT-Lösungen und elektrische Wartung. Unser Team besteht aus Experten, die rund um die Uhr für den gesamten Berliner Ballungsraum zur Verfügung stehen. Und eine IT-Abteilung, die deutschland- und europaweit für die Auftragsannahme zur Verfügung steht. 
+          Wir bieten Pyschiche Sicherheitsdienste, Cybersecurity & IT-Schutz und Schulungen nach §34a GewO. Unser Team besteht aus Experten, die rund um die Uhr für den gesamten Berliner Ballungsraum zur Verfügung stehen. Und eine IT-Abteilung, die deutschland- und europaweit für die Auftragsannahme zur Verfügung steht.
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

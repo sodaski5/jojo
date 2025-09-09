@@ -18,8 +18,8 @@ const CTA = () => {
 
   const sendEmail = () => {
     emailjs
-      .sendForm('service_mef5tch', 'template_unrr21o', form.current, {
-        publicKey: 'zxiShPemTgsL7A-m_',
+      .sendForm('service_axm33id', 'template_eq1d5uw', form.current, {
+        publicKey: 'IUhLgDO51FgnlojYE',
       })
       .then(
         () => {
@@ -37,7 +37,7 @@ const CTA = () => {
       <div className="flex-1 flex flex-col">
         <h2 className={styles.heading2}>Probieren Sie jetzt unseren Service aus!</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Zufriedenstellender Service, nur einen Klick entfernt</p>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Telefon: +49 17677873261, +49 17656563465 <br className="sm:block hidden"/> E-Mail: info@hegeba.de <br className="sm:block hidden"/> Adresse: Wederstr. 77, Berlin, 12347, Germany</p>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Telefon: +49 17680722201, +49 00000000000 <br className="sm:block hidden"/> E-Mail: info@jojo.de <br className="sm:block hidden"/> Adresse: Neuköln 12051, Berlin, Germany</p>
       </div>
 
       <div className="flex-1 flex flex-col">

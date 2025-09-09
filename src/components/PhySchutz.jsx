@@ -1,8 +1,8 @@
-import { bauarbeit } from '../assets';
+import { physchutz } from '../assets';
 import styles, { layout } from '../style';
 import Button from './Button';
 
-const Bauarbeit = () => {
+const PhySchutz = () => {
   const scrollToCTASection = () => {
     const ctaSection = document.getElementById('cta-section'); // Get the CTA section
     ctaSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to the CTA section smoothly
@@ -12,16 +12,22 @@ const Bauarbeit = () => {
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
-            Bauarbeiten
+            Physische Sicherheitsdienste
         </h2>
-        <p className={`${styles.paragraph} max-w-[460px] mt-5`}>Unser erfahrenes Team von Architekten, Bauingenieuren und Handwerkern übernimmt Bauprojekte jeder Größe und Komplexität. Von der sorgfältigen Planung bis zur präzisen Umsetzung legen wir größten Wert auf Qualität, Effizienz und die Zufriedenheit unserer Kunden. <br /> Mit einem individuellen Ansatz für jedes Projekt stellen wir sicher, dass die spezifischen Anforderungen und Visionen unserer Kunden erfüllt werden. Wir arbeiten eng mit Ihnen zusammen, um Ihre Wünsche zu verstehen und maßgeschneiderte Lösungen zu entwickeln, die Ihren Bedürfnissen entsprechen.</p>
+        <p className={`${styles.paragraph} max-w-[460px] mt-5`}>
+            Unser erfahrenes Sicherheitsteam sorgt für professionellen Objektschutz, Baustellenbewachung und Event-Security. Von der präventiven Präsenz über Kontrollrundgänge bis hin zu Zutritts- und Besuchermanagement stellen wir höchste Sicherheit und Zuverlässigkeit sicher.
+            <br />
+            Mit einem individuellen Ansatz entwickeln wir maßgeschneiderte Sicherheitskonzepte, die auf Ihre Anforderungen zugeschnitten sind – ob für Firmengebäude, Großveranstaltungen oder kritische Infrastrukturen. Dabei arbeiten wir eng mit Ihnen zusammen, um Risiken zu minimieren und ein sicheres Umfeld zu schaffen.
+            <br />
+            Vertrauen Sie JoJo Security für physische Sicherheit auf höchstem Niveau.
+        </p>
         <Button styles="mt-10" onClick={scrollToCTASection}/>
       </div>
       <div className={layout.sectionImg}>
-        <img src={bauarbeit} alt="card" className="w-[100%] h-[100%]" />
+        <img src={physchutz} alt="card" className="w-[100%] h-[100%]" />
       </div>
     </section>
   )
 }
 
-export default Bauarbeit
+export default PhySchutz

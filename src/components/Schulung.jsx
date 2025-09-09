@@ -1,8 +1,8 @@
-import { notdienst } from '../assets';
+import { securitytraining } from '../assets';
 import styles, {layout} from '../style';
 import Button from './Button';
 
-const Notdienst = () => {
+const Schulung = () => {
   const scrollToCTASection = () => {
     const ctaSection = document.getElementById('cta-section'); // Get the CTA section
     ctaSection.scrollIntoView({ behavior: 'smooth' }); // Scroll to the CTA section smoothly
@@ -11,14 +11,18 @@ const Notdienst = () => {
   return (
     <section id="product" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
-        <img src={notdienst} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+        <img src={securitytraining} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
         <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
         <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
       </div>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}> Reperaturen, Sanierungsarbeiten <br className="sm:block hidden" /> und Notdienst</h2>
+        <h2 className={styles.heading2}>Schulungen nach §34a GewO §</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-            Hegeba - Ihr Partner für Reparaturen, Sanierungsarbeiten und Notdienst in Berlin. Unser erfahrenes Team steht Ihnen zur Seite, um Probleme schnell und effizient zu lösen, sei es bei Schäden, Renovierungen oder dringenden Reparaturanfragen. Vertrauen Sie auf unsere Expertise für schnelle und zuverlässige Lösungen.
+            JoJo Security ist Ihr Partner für anerkannte Sicherheitsschulungen nach §34a GewO. Unser erfahrenes Dozententeam vermittelt praxisnahes Wissen und bereitet Teilnehmer optimal auf die IHK-Prüfung vor.
+            <br />
+            Ob online oder im Live-Unterricht – wir bieten flexible, effiziente und verständliche Lernkonzepte, die individuell auf die Anforderungen im Sicherheitsgewerbe zugeschnitten sind.
+            <br />
+            Vertrauen Sie auf unsere Expertise für eine fundierte Ausbildung und einen erfolgreichen Einstieg in die Sicherheitsbranche.
         </p>
         <Button styles="mt-10" onClick={scrollToCTASection} />
       </div>
@@ -26,4 +30,4 @@ const Notdienst = () => {
   )
 }
 
-export default Notdienst
+export default Schulung

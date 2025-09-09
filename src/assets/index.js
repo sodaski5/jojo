@@ -7,6 +7,9 @@ import dropbox from "./dropbox.png";
 import electro from "./electro.png";
 import file0 from "./file0.png";
 import hegeba from "./hegeba.png";
+import jojo from "./jojo.png";
+import physchutz from "./physchutz.png";
+import securitytraining from "./securitytraining.png";
 import quotes from "./quotes.svg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -48,4 +51,7 @@ export {
   instagram,
   linkedin,
   twitter,
+  jojo,
+  physchutz,
+  securitytraining,
 };
