@@ -1,5 +1,5 @@
 import styles from '../style';
-import { hegeba } from '../assets';
+import { jojo } from '../assets';
 import { footerLinks, socialMedia } from '../constants';
 
 
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
         <div className="flex-1 flex flex-col justify-start mr-10">
           <img 
-            src={hegeba} 
+            src={jojo}
             alt="hoobank"
             className="w-[200px] h-[150px] object-fill"
           />
